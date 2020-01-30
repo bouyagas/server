@@ -10,7 +10,6 @@
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-     "heroku-postbuild": "cd ./client && npm install && npm run build && cd ..",
      "client": "cd ./client && yarn run dev",
      "client-pro": "cd  ./client && yarn run star",
     "start": "node dist/server.js",
